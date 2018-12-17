@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Protein sequence input</title>
+	</head>
+	<body>
+		<form action="/cgi-bin/cal_seq_all.py" method="post">
+			<br><br>Please paste your protein sequence in the text box below (must be at least 140 residues): <br /><br />
+			<textarea name="sequence" rows='9' cols="80"></textarea><br /><br />
+			<button type="submit">PScore</button>
+			<button type="submit" formaction="/cgi-bin/cal_seq_example.py">See example</button>
+		</form>
+		
+		<br>
+		<p>If you want to run multiple sequences at the same time, please download the software here:</p>
+		<a href="Download/elife-31486-code2-v2.tgz">Download Phase Separation Predictor</a>
+		<p>The PScore predictor was devoloped by Dr. Robert M. Vernon. Please reference:<br><br>
+		<a href= "https://elifesciences.org/articles/31486">R.M. Vernon et al, eLife 7 (2018): e31486.</a></p>
+	</body>
+</html>
