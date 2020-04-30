@@ -1,4 +1,4 @@
-# Online-Protein-Phase-Separation-Predictor-Website_JFK laboratory in SickKids Hospital, Toronto, Canada
+# Protein Liquid-liquid Phase Separation Predictor Website (JFK laboratory, SickKids Hospital, Toronto)
 
 This program predicts the likelihood of intrinsically disordered protein regions (IDRs) to phase separate based on propensity for long-range planar pi-pi contacts. The phase separation predictor returns a single score per sequence supplied in fasta sequence format, ignoring sequences that are shorter 140 residues (shorter than any sequence in the training/test set) or that have ambigious residues (outside the scope of the training process). This predictor was designed primarily with the goal of testing the relationship between planar pi-pi contacts and IDR phase separation, but validation of the predictor demonstrates that it discriminates known phase-separating IDR-containing proteins from other protein sequences.
 
