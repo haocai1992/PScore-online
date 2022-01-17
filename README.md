@@ -23,7 +23,7 @@ For use in predicting sequences note that the contact predictions and validation
 
 
 ## Standalone offline version
-- Download offline version here: **[PScore-offline]**(http://abragam.med.utoronto.ca/~JFKlab/Software/Download/elife-31486-code2-v2.tgz).
+- Download offline version here: **[PScore-offline](http://abragam.med.utoronto.ca/~JFKlab/Software/Download/elife-31486-code2-v2.tgz)**.
 
 ## Reference
 - [Vernon, Robert McCoy, et al. "Pi-Pi contacts are an overlooked protein feature relevant to phase separation." elife 7 (2018): e31486.](https://elifesciences.org/articles/31486)
@@ -33,4 +33,4 @@ For use in predicting sequences note that the contact predictions and validation
 - Copyright of all materials in this repository belongs to [JFK laboratory](http://pound.med.utoronto.ca/~JFKlab/index.php) and [University of Toronto](https://www.utoronto.ca/), and can only be used or distributed for educational and research purpose. You may not use or distribute them for commercial purposes.
 - For any use of **PScore** in educational and research context, please cite this paper: "[Vernon RM, Chong PA, Tsang B, Kim TH, Bah A, Farber P, Lin H, Forman-Kay JD. Pi-Pi contacts are an overlooked protein feature relevant to phase separation. elife. 2018 Feb 9;7:e31486](https://elifesciences.org/articles/31486)".
 - The core algorithm of **PScore** is developed by [Dr. Robert M. Vernon](https://www.researchgate.net/profile/Robert-Vernon-3).
-- **`PScore-online`** is developed by [Dr. Hao Cai](https://ca.linkedin.com/in/haocai1992), including server setup, model deployment and website building.
+- **PScore-online** is developed by [Dr. Hao Cai](https://ca.linkedin.com/in/haocai1992), including server setup, model deployment and website building.
