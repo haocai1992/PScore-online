@@ -1,12 +1,12 @@
 ![](pscore-logo.jpg)
 
-This repo contains the source code for **[PScore]**(http://pound.med.utoronto.ca/~JFKlab/Software/psp.htm) (online version), a bioinformatics tool that predicts protein phase separation behavior, developed by [JFK laboratory](http://pound.med.utoronto.ca/~JFKlab/index.php) at [University of Toronto](https://www.utoronto.ca/).
+This repo contains the source code for [**`PScore-online`**](http://pound.med.utoronto.ca/~JFKlab/Software/psp.htm), a bioinformatics tool that predicts protein phase separation behavior, developed by [JFK laboratory](http://pound.med.utoronto.ca/~JFKlab/index.php) at [University of Toronto](https://www.utoronto.ca/).
 
-# PScore - online version
-**`PScore`** is a bioinformatic tool that predicts the likelihood of intrinsically disordered protein regions (IDRs) to phase separate based on propensity for long-range planar pi-pi contacts.
+# PScore-online
+**`PScore`** is a machine learning powered bioinformatic tool that predicts the likelihood of intrinsically disordered protein regions (IDRs) to phase separate based on propensity for long-range planar pi-pi contacts.
 
 ## Introduction - Protein phase separation
-Protein phase separation is a process by which a well-mixed solution of  proteins spontaneously separates into two phases: a dense and a dilute phase. It is known to play a role in a variety of cellular processes, including formation of classical membraneless organelles, signaling complexes, the cytoskeleton, and numerous other supramolecular assemblies. It is also known to have associations with a variety of neurological diseases, including Alzheimer's disease, Parkinson's disease, etc. In order to better understand biology and treat these diseases, it is essential to develop bioinformatic algorithms to predict protein phase separation from sequence. 
+[Protein phase separation](https://encyclopedia.pub/8037) is a process by which a well-mixed solution of  proteins spontaneously separates into two phases: a dense and a dilute phase. It is known to play a role in a variety of cellular processes, including formation of classical membraneless organelles, signaling complexes, the cytoskeleton, and numerous other supramolecular assemblies. It is also known to have associations with a variety of neurological diseases, including Alzheimer's disease, Parkinson's disease, etc. In order to better understand biology and treat these diseases, it is essential to develop bioinformatic algorithms to predict protein phase separation from sequence. 
 
 ## PScore: A machine learning prediction algorithm
 **`PScore`** is a machine learning algorithm that predicts the likelihood of protein phase separation based on propensity for long-range planar pi-pi contacts. We built and trained a machine learning model using 1,000,000+ Pi-Pi interactions of 10,000+ protein structures in [Protein Data Bank](https://www.rcsb.org/).
