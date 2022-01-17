@@ -23,7 +23,7 @@ For use in predicting sequences note that the contact predictions and validation
 
 
 ## Standalone offline version
-- Download offline version here: **[PScore-offline](http://abragam.med.utoronto.ca/~JFKlab/Software/Download/elife-31486-code2-v2.tgz)**.
+- Download offline version here: **[PScore-offline](http://pound.med.utoronto.ca/~JFKlab/Software/Download/elife-31486-code2-v2.tgz)**.
 
 ## Reference
 - [Vernon, Robert McCoy, et al. "Pi-Pi contacts are an overlooked protein feature relevant to phase separation." elife 7 (2018): e31486.](https://elifesciences.org/articles/31486)
